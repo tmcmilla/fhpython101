@@ -1,0 +1,100 @@
+class Point:
+	def __init(self, initialX=0, initialY =0):
+		self.x = initialX
+		self.y = initialY
+		
+	def __str__(self):
+		return 'x: %i y: %i ' % (self.x, self.y) 
+		
+		
+	def getX(self)
+		return self.x
+	def getY(self)
+		return self.y
+if __name__ == "__main__":
+	defaultPoint = Point()
+	if defaultPoint.getX() == 0  and defaultPoint.getY() == 0 and str(defaultPoint) == 'point:0,0':
+		print('Default Test passed')
+	else:
+		print('default Test Failed')
+	
+	point = Point(initialX=3, initialY=4)
+	if point.getX() == 3  and point.getY() == 4 and str(point) == 'point:3,4':
+		print('Point 3,4 Test passed')
+	else:
+		print('Point 3,4 Test failed')
+		
+		
+		
+		
+		
+
+math 
+class Line:
+	def __init(self, startPoint, endPoint):
+		self.startPoint = startPoint
+		self.endPoint  = endPoint
+	def __str__(self):
+		return 'startPoint : ' + str(self.startPoint) + ' endPoint : ' + str(self.endPoint)
+		
+	def length(self):
+		diffX = endPoint.getX() - startPoint.getX()
+		diffY = endPoint.getY() - startPoint.getY()
+	  return math.sqrt(math.pow(diffX, 2) + math.pow(diffY, 2
+	  
+	  
+from line
+from point	  
+if __name__ == "__main__":  
+	  # Create a line length = 0, point(0,0) and point (0,0)
+	  # create a line length = 5 , point(0,0) and point (4, 3)
+	  firstPoint = point.Point()  # 0,0
+	  secondPoint = point.Point()  # 0, 0
+	  # Test 0 length Line
+	  zeroLine = line.Line(firstPoint, secondPoint)
+	  if zeroLine.length() == 0 and str(zeroLine) == 'start:0,0;end:0,0':
+		 print("Test 0 Length Line : Passed)
+	  else :
+		print("Test 0 Length Line : Failed)
+	  # Test  Line Length 5
+	  firstPoint = point.Point()  # 0,0
+	  secondPoint = point.Point(3,4)  
+	  lineLengthFive = line.Line(firstPoint, secondPoint)
+	   if lineLengthFive.length() == 0 and str(lineLengthFive) == 'start:0,0;end:4,3':
+		 print('Test Line Length 5: Passed')
+	  else :
+		print('Test Line Length 5: Failed')
+	  
+	  
+	  def __int__(self):
+			return int(self.balance)
+			
+			
+from point
+from unitest
+
+class PointTest(unittest.TestCase):
+def test1(self):
+point = Point()
+self.assertTrue(point.getX() == 0)
+self.assertTrue(point.getY() ==0)
+self.assertTrue(str(point)== '0,0')
+def test1(self):
+def test2(self):
+point = Point(initialX=3, initialY=4
+self.assertTrue(point.getX() == 3)
+self.assertTrue(point.getY() ==4)
+self.assertTrue(str(point)== '3,4')
+
+
+if __name__ == "__main__":
+unittest.main()			
+from account
+class SavingsAccount(account.Account):
+	def __init(self):
+		account.Account.__init__(self)
+		
+	def __int__(self):
+		return account.Account.__int__(self)
+		
+	  
